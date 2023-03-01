@@ -1,5 +1,6 @@
 # Email Exchange Application
-
+> Adapted from assignment specification
+> 
 Implement in Python some email exchange applications that supports the `SMTP-CRAM` protocol. This includes a client, a server and an eavesdropper (middle-man attacker), which can apply MitM attack to the authentication mechanism. 
 
 Assume all programs are supposed to be run and tested locally and they are not required to be extensible to support TCP connection via the Internet or to be used in real world. No actual data should be sent and received from the Internet, and everything should be contained in the local loopback. We also assume any syntactically valid message under the protocol can be accepted. E.g., No actual check is needed on any email or IP address, we accept any syntactically valid messages including addresses.
