@@ -1,0 +1,13 @@
+From: <bobbobo@bob.org>
+To: <jmliang@cityu.com>
+Date:
+
+Subject:
+
+RCPT TO:<imyyc@gmail.com>
+RCPT TO:<jmliang@cityu.com>
+DATA
+Date: Mon, 14 Sep 1987 23:07:00 +1000
+Subject: Frist Electronic Mail from Bob to Alice and Carol
+Across the Exosphere we can reach every corner on the Moon.
+P.S. THIS IS A SPAM

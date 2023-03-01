@@ -1,0 +1,16 @@
+NOOP
+EHLO 3.0.0.1
+NOOP random
+MAIL FROM:<bob@bob.org>
+NOOP
+RCPT TO:<alice@example.com>
+NOOP
+DATA
+Date: Mon, 14 Sep 1987 23:07:00 +1000
+Subject: Frist Electronic Mail from Bob to Alice and Carol
+Across the Exosphere we can reach every corner on the Moon.
+P.S. THIS IS NOT A SPAM
+NOOP
+N OOP
+.
+QUIT

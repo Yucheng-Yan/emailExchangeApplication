@@ -1,0 +1,24 @@
+S: 220 Service ready
+C: MAIL
+S: 503 Bad sequence of commands
+C: RCPT TO
+S: 503 Bad sequence of commands
+C: EHLO 127.0.0.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: MAIL
+S: 501 Syntax error in parameters or arguments
+C: RCPT TO
+S: 503 Bad sequence of commands
+C: MAIL FROM:<bob@bob.org>
+S: 250 Requested mail action okay completed
+C: random
+C: .
+C: DATA
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: random
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: .
+S: 250 Requested mail action okay completed
+C: QUIT
+S: 221 Service closing transmission channel

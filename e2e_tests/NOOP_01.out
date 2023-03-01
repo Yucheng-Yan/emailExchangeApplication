@@ -1,0 +1,34 @@
+S: 220 Service ready
+C: NOOP
+S: 250 Requested mail action okay completed
+C: EHLO 3.0.0.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: NOOP random
+S: 501 Syntax error in parameters or arguments
+C: MAIL FROM:<bob@bob.org>
+S: 250 Requested mail action okay completed
+C: NOOP
+S: 250 Requested mail action okay completed
+C: RCPT TO:<alice@example.com>
+S: 250 Requested mail action okay completed
+C: NOOP
+S: 250 Requested mail action okay completed
+C: DATA
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: Date: Mon, 14 Sep 1987 23:07:00 +1000
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: Subject: Frist Electronic Mail from Bob to Alice and Carol
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: Across the Exosphere we can reach every corner on the Moon.
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: P.S. THIS IS NOT A SPAM
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: NOOP
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: N OOP
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: .
+S: 250 Requested mail action okay completed
+C: QUIT
+S: 221 Service closing transmission channel

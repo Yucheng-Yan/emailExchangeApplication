@@ -1,0 +1,20 @@
+EHLO 127.0.0.1
+MAIL
+MAIL FROM
+MAIL FROM:
+MAIL FROM:<>
+MAIL:<abc@abc.org>
+MAIL FROM:<abc-@abc-.org
+MAIL FROM: <ab.c@abc!.org>
+MAIL FROM:<abc@boborg>
+MAIL FROM:<abc@-abc.org>
+MAIL FROM:<abc--@abc-.org>
+MAIL FROM:<-abc<@abc.org>
+MAIL FROM:<abc-.-abc@abc.org>
+MAIL FROM:<abc-@ab..c.org>
+RSET
+MAIL FROM:<abc.abc@abc!!!.org>
+RSET
+MAIL FROM:<abc@abasdasdasc-abc.org>
+RSET
+QUIT

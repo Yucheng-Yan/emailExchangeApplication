@@ -1,0 +1,10 @@
+S: 220 Service ready
+C: EHLO 127.0.0.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: AUTH CRAM-MD5
+S: 334 YTcxNjAwN2MzNGY0MzJhY2VkODczM2ZjYzEyNmZjNjA=
+C: Ym9iIGFiY2RlZmdoaWprbG1ub3BxcnN0dXZ3eHl6MTIzNDU2
+S: 535 Authentication credentials invalid
+C: QUIT
+S: 221 Service closing transmission channel

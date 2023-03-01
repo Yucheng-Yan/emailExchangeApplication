@@ -1,0 +1,12 @@
+MAIL
+RCPT TO
+EHLO 127.0.0.1
+MAIL
+RCPT TO
+MAIL FROM:<bob@bob.org>
+random
+.
+DATA
+random
+.
+QUIT
